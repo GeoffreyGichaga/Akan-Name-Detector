@@ -1,6 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body
 {
     background-color: #462828;
 }
 
-p
+
+.intro
+{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-top: 14%;
+    animation: ease-in;
+}
+
+
+section .intro p{
+    font-family: 'Tropical Nature', sans-serif;
+    color: #f39c31;
+    font-size: 112px;
+    padding-right: 60px;
+
+}
+
+section .intro img
+{
+    width: 35%;
+    
+}
+
+
+.detector
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.detector p{
+    font-family: 'Tropical Nature', sans-serif;
+
+    color: #f39c31;
+    font-size: 50px;
+
+}
