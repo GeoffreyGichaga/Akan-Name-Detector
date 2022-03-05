@@ -47,5 +47,36 @@ section .intro img
 
     color: #f39c31;
     font-size: 50px;
+    margin-top: 10%;
+    margin-right: 10%;
 
+}
+
+.card
+{
+    background-color: #f39c31;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.card form
+{
+    margin-top: 5%;
+    margin-left: 20px;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.card form label
+{
+    font-family: 'Acme', sans-serif;
+
+}
+
+.card form input
+{
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-family: 'Acme', sans-serif;
 }
