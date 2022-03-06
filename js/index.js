@@ -54,6 +54,28 @@ let getAkanName = ()=>
 
 
 
+
+    // Getting the gender of user
+   if(male.checked == true)
+   {
+       alert("Your Akan Name is " + genderMale[dayOfWeek])
+    
+
+   }
+   else if(female.checked == true)
+   {
+       alert("Your Akan Name is " + genderFemale[dayOfWeek])
+   }
+
+
+
+   else
+   {
+       alert("Please Select a Gender ")
+   }
+
+  
+
 }
 
 getAkanName();
