@@ -23,15 +23,29 @@
     <article>
      <div class="detector">
        <p>Akan Detector</p>
+       <p id="demo"></p>
        <div class="card">
-           <form action="#">
-               <label for="name">Enter Your Name</label><br>
-               <input type="text" placeholder="eg John" name="fname"><br>
+           <form action="#" name="inform" id="inform">
+
+           
+
+
+            <label for="day">Date</label><br>
+            <input type="number" id="dayInput" placeholder="DD" required> 
+            <input type="number" id="monthInput" placeholder="MM" required>
+            <input type="number" id="yearInput" placeholder="YYYY" required> <br>
+
+
+
+            
+
                <label for="gender">Gender</label><br>
-               <input type="radio">Male
-               <input type="radio">Female <br>
-               <label for="date">Date of Birth</label> <br>
-               <input type="date">
+               <input type="radio" name="gender" id="male">Male
+               <input type="radio" name="gender" id="female">Female <br>
+             
+
+               <button id="subtn" >Get Akan Name</button>
+               <p id="akaname"></p>
 
            </form>
        </div>

@@ -77,6 +77,22 @@ section .intro img
 {
     padding: 5px;
     margin-bottom: 25px;
+    border: 2px solid #f39c31;
     border-radius: 5px;
     font-family: 'Acme', sans-serif;
+}
+
+/* .card form input:focus-within
+{
+    color: white;
+} */
+
+.card form #subtn
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Acme', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #f39c31;
+
 }
