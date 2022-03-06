@@ -16,6 +16,7 @@ section
 
 .intro
 {
+    width: 80%;
     align-content: center;
     display: flex;
     flex-direction: row;
@@ -47,7 +48,7 @@ section .intro span{
 
 section .intro img
 {
-    width: 35%;
+    width: 45%;
     
 }
 
@@ -56,8 +57,7 @@ section .intro img
 .description
 {
     width: 50%;
-    background-color: #f39c31;
-    border: 2px solid #f39c31;
+    height: 90%;
     border-radius: 5px;
     margin-top: 14%;
 
@@ -69,11 +69,28 @@ section .intro img
 .description h3 {
     font-family: 'Acme', sans-serif;
     padding-left: 5px;
+    color: #f39c31;
+    font-size: 50px;
 
 }
 
 .description p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+#akanbtn
+{
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #f39c31;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 
