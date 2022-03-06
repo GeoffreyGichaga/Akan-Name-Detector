@@ -35,19 +35,19 @@ let getAkanName = ()=>
     const dayOfWeek = dateNew.getDay();
 
 
-    // Verifying  Inputs
-    if(day.value == " " || day.value >31)
-    {
-        alert("Enter Valid day between 1 -31")
-    }
-    else if(month.value == " " || month.value >12)
-    {
-        alert("Enter a Valid Month between 1 - 12")
-    }
-    else if(year.value.length == " "|| year.value.length <4)
-    {
-        alert("Enter a valid Year")
-    }
+    // // Verifying  Inputs
+    // if(day.value == " " || day.value >31)
+    // {
+    //     alert("Enter Valid day between 1 -31")
+    // }
+    // else if(month.value == " " || month.value >12)
+    // {
+    //     alert("Enter a Valid Month between 1 - 12")
+    // }
+    // else if(year.value.length == " "|| year.value.length <4)
+    // {
+    //     alert("Enter a valid Year")
+    // }
 
 
 
@@ -69,10 +69,10 @@ let getAkanName = ()=>
 
 
 
-   else
-   {
-       alert("Please Select a Gender ")
-   }
+//    else
+//    {
+//        alert("Please Select a Gender ")
+//    }
 
   
 

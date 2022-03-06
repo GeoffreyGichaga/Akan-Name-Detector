@@ -7,16 +7,24 @@ body
     background-color: #462828;
 }
 
+section
+{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .intro
 {
     align-content: center;
     display: flex;
     flex-direction: row;
-    margin-left: 20%;
+    margin-left: 2%;
     margin-top: 14%;
-    animation: ease-in;
+   
+   
 }
+
 
 
 section .intro p{
@@ -25,12 +33,74 @@ section .intro p{
     font-size: 112px;
     padding-right: 60px;
 
+   
+
+
 }
+
+section .intro span{
+    font-size: 20px;
+
+}
+
+
 
 section .intro img
 {
     width: 35%;
     
+}
+
+
+/* Description */
+.description
+{
+    width: 50%;
+    background-color: #f39c31;
+    border: 2px solid #f39c31;
+    border-radius: 5px;
+    margin-top: 14%;
+
+    
+
+   
+}
+
+.description h3 {
+    font-family: 'Acme', sans-serif;
+    padding-left: 5px;
+
+}
+
+.description p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article
+{
+    display: none;
 }
 
 
@@ -76,23 +146,23 @@ section .intro img
 .card form input
 {
     padding: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border: 2px solid #f39c31;
     border-radius: 5px;
     font-family: 'Acme', sans-serif;
 }
 
-/* .card form input:focus-within
-{
-    color: white;
-} */
+
 
 .card form #subtn
 {
     padding: 10px;
-    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5px;
     font-family: 'Acme', sans-serif;
     border-radius: 5px;
-    border: 2px solid #f39c31;
+    border: 2px solid black;
+    background-color: transparent;
 
 }
