@@ -11,6 +11,7 @@ const year = document.getElementById("yearInput");
 const male = document.getElementById("male");
 const female = document.getElementById("female");
 const btn = document.getElementById("subtn");
+const btn2 = document.getElementById("akanbtn")
 const par = document.getElementById("akaname");
 
 const genderMale = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];

@@ -11,6 +11,7 @@ section
 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 15%;
 }
 
 
@@ -33,11 +34,20 @@ section .intro p{
     color: #f39c31;
     font-size: 112px;
     padding-right: 60px;
-
-   
-
-
 }
+
+
+
+section .intro p:hover
+{
+    transform: translateY(-20px);
+    transition: 1s;
+}
+
+
+
+
+
 
 section .intro span{
     font-size: 20px;
@@ -50,6 +60,13 @@ section .intro img
 {
     width: 45%;
     
+}
+
+section .intro img:hover
+{
+    transform: translateX(20px);
+
+    transition: 1s;
 }
 
 
@@ -66,13 +83,24 @@ section .intro img
    
 }
 
-.description h3 {
+.description h3 
+{
     font-family: 'Acme', sans-serif;
     padding-left: 5px;
     color: #f39c31;
     font-size: 50px;
 
 }
+
+.description h3:hover
+{
+    transform: translateY(-10px);
+    transition: 1s;
+    font-size: 62px;
+}
+
+
+
 
 .description p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -91,6 +119,16 @@ section .intro img
     margin-bottom: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+#akanbtn:hover
+{
+    transform: translateY(-5px);
+    transition: 1s;
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    color: #f39c31;
+    font-size: 15px;
 }
 
 
@@ -113,19 +151,16 @@ section .intro img
 
 
 
+/* Form  */
 
 
-article
-{
-    display: none;
-}
 
 
 .detector
 {
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
+    margin-left: 30%;
     margin-top: 10%;
 }
 
@@ -141,10 +176,27 @@ article
 
 .card
 {
-    background-color: #f39c31;
     width: 50%;
     border-radius: 7px;
+    border: 2px solid #f39c31;
 }
+
+.card h3
+{
+    color: #f39c31;
+    text-align: center;
+}
+
+
+.card h3:hover
+{
+    transform: translateY(-5px);
+    transition: 1s;
+    font-size: 20px;
+}
+
+
+
 
 .card form
 {
@@ -157,6 +209,7 @@ article
 .card form label
 {
     font-family: 'Acme', sans-serif;
+    color: whitesmoke;
 
 }
 
@@ -179,7 +232,16 @@ article
     margin-bottom: 5px;
     font-family: 'Acme', sans-serif;
     border-radius: 5px;
-    border: 2px solid black;
+    border: 2px solid #f39c31;
     background-color: transparent;
+    color: whitesmoke;
 
+}
+
+
+.card form #subtn:hover
+{
+    border: 2px solid whitesmoke;
+    transition: 1s;
+    color: #f39c31;
 }
