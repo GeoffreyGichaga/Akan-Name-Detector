@@ -9,7 +9,7 @@
 
 
 
-# Get Your Akan Name
+# Akan Name Generator Site
 #### 04/03/2022
 This is a basic html/css website that enables users to genereate their Akan Names
 #### By 
