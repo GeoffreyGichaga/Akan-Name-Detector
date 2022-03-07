@@ -131,11 +131,43 @@ section .intro img:hover
     font-size: 15px;
 }
 
+@media only screen  and (min-width:300px) and (max-width:1000px){
+    section{
+        display: block;
+    }
+
+    .intro
+    {
+        width: 100%;
+    }
+
+    .description
+    {
+        width: 100%;
+    }
+
+    .description h3 
+    {
+        text-align: center;
+    }
+    .description p 
+    {
+        text-align: center;
+    }
+    .description a 
+    {
+        margin-left: 10%;
+    }
+
+
+    
+}
 
 
 
 
 
+/* End of Landing page */
   
 
 

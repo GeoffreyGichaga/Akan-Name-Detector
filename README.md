@@ -22,7 +22,7 @@ Geoffrey Gichaga .G
 + [Known Bugs](#Known-Bugs)
 + [Technology Used](#technology-used)
 + [Support and Contact Details](#Support-and-contact-details)
-+ [Authors Info](#author-Info)
++ [Authors Info](#authors-Info)
 
 ## Description
 This is a site that gives the user their Akan Name based on the day they were born and their Gender.
