@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body
@@ -131,6 +132,9 @@ section .intro img:hover
     font-size: 15px;
 }
 
+
+/* Media Quries for Section */
+
 @media only screen  and (min-width:300px) and (max-width:1000px){
     section{
         display: block;
@@ -162,6 +166,8 @@ section .intro img:hover
 
     
 }
+/* End of Media Quries for Section */
+
 
 
 
@@ -277,3 +283,22 @@ section .intro img:hover
     transition: 1s;
     color: #f39c31;
 }
+
+
+
+
+/* Media Queries for Form */
+@media only screen  and (min-width:300px) and (max-width:1000px){
+
+    .detector
+    {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .card
+    {
+        width: 100%;
+    }
+}
+/* End of Media Queries for Form */
