@@ -13,13 +13,13 @@ const female = document.getElementById("female");
 const btn = document.getElementById("subtn");
 const btn2 = document.getElementById("akanbtn")
 const par = document.getElementById("akaname");
+const par2 = document.getElementById("par1");
+const par3 = document.getElementById("par2");
+const spanBtn = document.getElementById("cancel");
+const resultsModal = document.querySelector(".results")
 
 const genderMale = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-const genderFemale = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
-
-
-
-
+const genderFemale = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 
 
@@ -62,13 +62,18 @@ let getAkanName = ()=>
     // Getting the gender of user
    if(male.checked == true)
    {
-       alert("Your Akan Name is " + genderMale[dayOfWeek])
+    //    alert("Your Akan Name is " + genderMale[dayOfWeek])
+    resultsModal.style.display = "block"
+    par2.innerHTML = "Your Akan Name is " + genderMale[dayOfWeek];
     
 
    }
    else if(female.checked == true)
    {
-       alert("Your Akan Name is " + genderFemale[dayOfWeek])
+    //    alert("Your Akan Name is " + genderFemale[dayOfWeek])
+    resultsModal.style.display = "block"
+    par3.innerHTML = "Your Akan Name is " + genderFemale[dayOfWeek];
+
    }
 
 
@@ -81,7 +86,24 @@ let getAkanName = ()=>
 
 getAkanName();
 
-btn.addEventListener("click", getAkanName)
+btn.addEventListener("click", getAkanName);
+
+
+
+let closeModal = () =>
+{
+    resultsModal.style.display = "none";
+}
+
+spanBtn.addEventListener("click",closeModal);
+
+
+window.onclick = (display)=>{
+    if(display.target == resultsModal)
+    {
+        resultsModal.style.display ="none";
+    }
+}
 
 
 
