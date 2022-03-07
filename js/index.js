@@ -40,6 +40,7 @@ let getAkanName = ()=>
     if(day.value == " " || day.value >31)
     {
         alert("Enter Valid day between 1 -31")
+        
     }
     else if(month.value == " " || month.value >12)
     {
@@ -49,11 +50,11 @@ let getAkanName = ()=>
     {
         alert("Enter a valid Year")
     }
-    else
-    {
-
-    }
-
+   else
+   {
+       
+   }
+   
 
 
 
@@ -68,6 +69,7 @@ let getAkanName = ()=>
     
 
    }
+
    else if(female.checked == true)
    {
     //    alert("Your Akan Name is " + genderFemale[dayOfWeek])
@@ -75,11 +77,15 @@ let getAkanName = ()=>
     par3.innerHTML = "Your Akan Name is " + genderFemale[dayOfWeek];
 
    }
+   else if (male.checked || female.checked == false)
+   {
+    resultsModal.style.display = "block"
 
+    par3.innerHTML = "Please Select a Gender";
 
+   }
 
-  
-
+ 
   
 
 }
@@ -102,6 +108,16 @@ window.onclick = (display)=>{
     if(display.target == resultsModal)
     {
         resultsModal.style.display ="none";
+    }
+}
+
+
+window.onload = ()=>
+{
+    if(resultsModal.style.display =="block")
+    {
+        resultsModal.style.display ="none";
+
     }
 }
 
