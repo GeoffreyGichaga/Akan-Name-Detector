@@ -143,6 +143,11 @@ section .intro img:hover
     .intro
     {
         width: 100%;
+        display: block;
+    }
+    .intro img {
+        width: 100%;
+        margin-left: 20%;
     }
 
     .description

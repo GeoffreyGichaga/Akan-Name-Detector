@@ -65,7 +65,8 @@ let getAkanName = ()=>
    {
     //    alert("Your Akan Name is " + genderMale[dayOfWeek])
     resultsModal.style.display = "block"
-    par2.innerHTML = "Your Akan Name is " + genderMale[dayOfWeek];
+    par3.innerHTML = "Your Akan Name is " + genderMale[dayOfWeek];
+    console.log(genderMale[dayOfWeek])
     
 
    }
@@ -77,12 +78,19 @@ let getAkanName = ()=>
     par3.innerHTML = "Your Akan Name is " + genderFemale[dayOfWeek];
 
    }
-   else if (male.checked || female.checked == false)
+   else if (male.checked == false)
    {
     resultsModal.style.display = "block"
 
     par3.innerHTML = "Please Select a Gender";
 
+   }
+
+   else if(female.checked == false)
+   {
+    resultsModal.style.display = "block"
+
+    par3.innerHTML = "Please Select a Gender";
    }
 
  

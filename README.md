@@ -10,8 +10,8 @@
 
 
 # Akan Name Generator Site
-#### 04/03/2022
-This is a basic html/css website that enables users to genereate their Akan Names
+#### 06/03/2022
+This is a basic html/css website that enables users to generate their Akan Names.
 #### By 
 Geoffrey Gichaga .G
 
