@@ -59,6 +59,7 @@ Sunday: Akosua
 
 ## How the Site Works
 * User Enters their Birthday
+* Then selects their gender and
 * The System calculates and Finds the day user was born.
 * It matches the day with the available name basing on the gender of the user.
 * An Akan Name is then Displayed on the screen.
